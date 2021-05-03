@@ -81,12 +81,13 @@
     ?>
 
     <table>
-        <tr>
+        <!-- <tr>
             <th>ID:</th>
             <th>Name:</th>
             <th>Edit:</th>
             <th>Delete:</th>
-        </tr>
+        </tr> -->
+        <!-- changes are made here -->
 
         <?php
         while ($row = mysqli_fetch_assoc($result)) {
